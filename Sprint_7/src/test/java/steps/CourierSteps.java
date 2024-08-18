@@ -1,4 +1,4 @@
-package Steps;
+package steps;
 
 import clients.CourierClient;
 import dto.Courier;

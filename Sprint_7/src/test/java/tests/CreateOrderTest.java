@@ -2,7 +2,7 @@ package tests;
 
 import java.util.List;
 
-import Steps.OrderSteps;
+import steps.OrderSteps;
 import clients.OrderClient;
 
 import io.qameta.allure.junit4.DisplayName;
@@ -56,7 +56,7 @@ public class CreateOrderTest {
 
     @Test
     @DisplayName("Create order")
-    public void CreateOrderTest(){
+    public void createNewOrderTest(){
         orderSteps
                 .createOrder(firstName, lastName, address, metroStation, phone, rentTime, deliveryDate, comment, colour)
                 .statusCode(SC_CREATED)

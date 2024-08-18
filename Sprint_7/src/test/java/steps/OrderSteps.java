@@ -1,4 +1,4 @@
-package Steps;
+package steps;
 
 import java.util.List;
 

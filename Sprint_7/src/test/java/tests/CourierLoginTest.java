@@ -1,6 +1,6 @@
 package tests;
 
-import Steps.CourierSteps;
+import steps.CourierSteps;
 import clients.CourierClient;
 import io.qameta.allure.junit4.DisplayName;
 import org.apache.commons.lang3.RandomStringUtils;
